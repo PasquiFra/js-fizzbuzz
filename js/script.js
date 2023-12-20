@@ -8,7 +8,12 @@ const divGen = document.createElement ("div");
 // creo la formula "for" per generare i valori da 1 a 100
 
 for (let i = 0; i < 100; i++) {
-    const numberGen = i + 1;
-    console.log("i= ", i, "Numero generato", i + 1);
+    let numberGen = i + 1;
+    
+    if (numberGen % 3 === 0) {
+        numberGen = "Fizz"
+    }
+    console.log("i= ", i, "Numero generato", numberGen);
+    
 }
 
