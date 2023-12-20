@@ -1,3 +1,25 @@
 body {
     background-color: #083b4c;
 }
+
+h1 {
+    padding: 25px 0;
+
+    font-size: 3rem;
+    font-weight: 800;
+    color: white;
+
+    text-align: center;
+}
+
+#generate-button {
+    width: 250px;
+    height: 250px;
+
+    border-radius: 50%;
+
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+    background-color: white;
+}
